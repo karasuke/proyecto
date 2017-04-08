@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="PREVCRIM" company="PREVCRIM" webLink="http://" view-date="2017-01-30" view-index="0" gantt-divider-location="569" resource-divider-location="546" version="2.8.4" locale="es">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="316" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="115" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="134" order="2"/>
+        <option id="color.recent"><![CDATA[#ff9933 #ff00ff #009933 #ff0000 #000099 #330033]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="200" order="0"/>
+        <field id="1" name="Función" width="162" order="1"/>
+        <field id="tpc0" name="" width="180" order="2"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Chile">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"/>
+        <date year="" month="3" date="24" type="HOLIDAY"/>
+        <date year="" month="5" date="1" type="HOLIDAY"/>
+        <date year="" month="5" date="21" type="HOLIDAY"/>
+        <date year="" month="6" date="29" type="HOLIDAY"/>
+        <date year="" month="7" date="16" type="HOLIDAY"/>
+        <date year="" month="8" date="15" type="HOLIDAY"/>
+        <date year="" month="9" date="18" type="HOLIDAY"/>
+        <date year="" month="9" date="19" type="HOLIDAY"/>
+        <date year="" month="10" date="12" type="HOLIDAY"/>
+        <date year="" month="10" date="31" type="HOLIDAY"/>
+        <date year="" month="11" date="1" type="HOLIDAY"/>
+        <date year="" month="12" date="8" type="HOLIDAY"/>
+        <date year="" month="12" date="25" type="HOLIDAY"/>
+        <date year="2014" month="4" date="18" type="HOLIDAY"/>
+        <date year="2014" month="4" date="19" type="HOLIDAY"/>
+        <date year="2015" month="4" date="3" type="HOLIDAY"/>
+        <date year="2015" month="4" date="4" type="HOLIDAY"/>
+        <date year="2016" month="3" date="25" type="HOLIDAY"/>
+        <date year="2016" month="3" date="26" type="HOLIDAY"/>
+        <date year="2017" month="4" date="14" type="HOLIDAY"/>
+        <date year="2017" month="4" date="15" type="HOLIDAY"/>
+        <date year="2018" month="3" date="30" type="HOLIDAY"/>
+        <date year="2018" month="3" date="31" type="HOLIDAY"/>
+        <date year="2019" month="4" date="19" type="HOLIDAY"/>
+        <date year="2019" month="4" date="20" type="HOLIDAY"/>
+        <date year="2020" month="4" date="10" type="HOLIDAY"/>
+        <date year="2020" month="4" date="11" type="HOLIDAY"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="138" name="Proyecto" color="#8cb6ce" meeting="false" project="true" start="2017-04-06" duration="54" complete="0" expand="false">
+            <task id="139" name="Analisis" color="#330033" meeting="false" start="2017-04-06" duration="3" complete="0" thirdDate="2017-04-06" thirdDate-constraint="1" expand="true">
+                <depend id="143" type="2" difference="0" hardness="Strong"/>
+                <task id="140" name="Analisis de requerimientos" color="#8cb6ce" meeting="false" start="2017-04-06" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="141" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="141" name="Analizar problemas a resolver" color="#8cb6ce" meeting="false" start="2017-04-07" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="142" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="142" name="Componentes y lenguajes a utilizar" color="#8cb6ce" meeting="false" start="2017-04-10" duration="1" complete="0" priority="3" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+            <task id="143" name="Diseño" color="#000099" meeting="false" start="2017-04-11" duration="24" complete="0" thirdDate="2017-04-17" thirdDate-constraint="0" expand="true">
+                <depend id="151" type="2" difference="0" hardness="Strong"/>
+                <task id="144" name="Modelo entidad relacion" color="#8cb6ce" meeting="false" start="2017-04-11" duration="6" complete="0" thirdDate="2017-04-17" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="145" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="145" name="Modelo de datos" color="#8cb6ce" meeting="false" start="2017-04-20" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="146" name="UML" color="#8cb6ce" meeting="false" start="2017-04-25" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="147" name="Formularios" color="#8cb6ce" meeting="false" start="2017-04-28" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="148" name="Reportes" color="#8cb6ce" meeting="false" start="2017-05-04" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="149" name="Contenido" color="#8cb6ce" meeting="false" start="2017-05-09" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="150" name="Colores y serigrafia" color="#8cb6ce" meeting="false" start="2017-05-12" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+            <task id="151" name="Desarrollo" color="#ff0000" meeting="false" start="2017-05-17" duration="19" complete="0" priority="4" expand="true">
+                <depend id="160" type="2" difference="0" hardness="Strong"/>
+                <depend id="161" type="2" difference="0" hardness="Strong"/>
+                <task id="152" name="Creacion de base de datos" color="#8cb6ce" meeting="false" start="2017-05-17" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="153" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="153" name="Creacion de sesiones" color="#8cb6ce" meeting="false" start="2017-05-22" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="154" name="Validacion reportes" color="#8cb6ce" meeting="false" start="2017-05-25" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="155" name="Validacion formularios" color="#8cb6ce" meeting="false" start="2017-05-30" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="156" name="Validacion de sesiones" color="#8cb6ce" meeting="false" start="2017-05-31" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="157" name="Creacion del CRUD" color="#8cb6ce" meeting="false" start="2017-06-05" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="158" name="Seguridad" color="#8cb6ce" meeting="false" start="2017-06-08" duration="3" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+            <task id="160" name="Pruebas" color="#ff00ff" meeting="false" start="2017-06-13" duration="1" complete="0" expand="true">
+                <depend id="159" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="159" name="Correccion de errores" color="#ff9933" meeting="false" start="2017-06-14" duration="1" complete="0" expand="true"/>
+            <task id="161" name="Documentacion" color="#009933" meeting="false" start="2017-06-15" duration="6" complete="0" expand="true">
+                <task id="162" name="Mapa de navegacion" color="#8cb6ce" meeting="false" start="2017-06-15" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="163" name="Manual de usuario" color="#8cb6ce" meeting="false" start="2017-06-16" duration="1" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="164" name="Manual del programador" color="#8cb6ce" meeting="false" start="2017-06-19" duration="4" complete="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <custom-property-definition id="tpc0" name="" type="text"/>
+        <resource id="0" name="Boris Danilo Zepeda Veliz" function="SoftwareDevelopment:2" contacts="kyshio@live.cl" phone="57519609"/>
+        <resource id="1" name="Sebastian Valenzuela Castillo" function="SoftwareDevelopment:2" contacts="svalenzuelacastillo@gmail.com" phone="976138953"/>
+    </resources>
+    <allocations>
+        <allocation task-id="140" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="144" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="145" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="146" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="147" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="152" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="154" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="156" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="157" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="158" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="160" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="163" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="140" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="141" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="142" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="148" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="149" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="153" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="155" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="157" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="159" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="162" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="164" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
